@@ -1,0 +1,1 @@
+function sayNext(){}function sayHello(){}var hi="hello",hi="Hello";

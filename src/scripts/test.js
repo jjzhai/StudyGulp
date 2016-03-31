@@ -1,5 +1,5 @@
-var hi="Hello"
+var hi="Hello";
 
 function sayHello(){
-	cnsole.log("Jack"+hi)
+	console.log("Jack"+hi);
 }
