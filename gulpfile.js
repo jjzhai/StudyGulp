@@ -12,8 +12,11 @@ gulp.task('jshint',function(){
 
 gulp.task('scripts',function(){
 	gulp.src(['./src/scripts/*.js'])
+//hebing
 		.pipe(concat('all.js'))
+//qudiao debug xinxi
 		.pipe(stripDebug())
+//qudiao kongge huanhang
 		.pipe(uglify())
 		.pipe(gulp.dest('./build/scripts/'));
 });
